@@ -1,6 +1,7 @@
 # OpenList_123
 > 实现123网盘无限制下载
 - Docker部署命令:`docker run -d --restart=unless-stopped -v /etc/openlist:/opt/openlist/data -p 5244:5244 -e PUID=0 -e PGID=0 -e UMASK=022 --name="openlist" xiguanle/openlist:latest`
+  - 或者更换指定指定版本，例如:openlist:v4.0.0
 
 - 支持架构:
   - linux/amd64
